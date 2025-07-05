@@ -16,6 +16,13 @@
 - 책의 제목, 저자, 시작일, 종료일, 메모 등 상세 정보를 입력하고 수정하면서 독서 활동을 기록할 수 있다.
 
 
+### 초기 설계 스케치
+아래 이미지는 개발 초기 단계에서 구상한 화면 설계 예시입니다.
+실제 구현과 비교해보면 초기 아이디어를 확인할 수 있습니다.
+
+<img src="images/initial_idea.png" alt="초기 설계 스케치" width="400">
+
+
 ---
 ### 개발 환경
 - **언어**: Kotlin
@@ -60,8 +67,6 @@
 └── res
     ├── drawable
     │   ├── background_app_container.xml
-    │   ├── ic_launcher_background.xml
-    │   ├── ic_launcher_foreground.xml
     │   ├── rounded_add_book_background.xml
     │   ├── rounded_button.xml
     │   ├── rounded_dialog_background.xml
@@ -91,7 +96,10 @@
 
 ---
 ### 🎥 시연 영상
+아래 영상에서 앱의 주요 기능과 동작 화면을 확인할 수 있습니다.
+
 [youtube 링크](https://youtu.be/hJgjR95GOdQ)
+
 <p>
     <a href="https://youtu.be/hJgjR95GOdQ">
         <img src="android-images/splash_screen.png" alt="splash screen" width="150">
