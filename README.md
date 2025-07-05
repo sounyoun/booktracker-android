@@ -94,6 +94,6 @@
 [youtube 링크](https://youtu.be/hJgjR95GOdQ)
 <p>
     <a href="https://youtu.be/hJgjR95GOdQ">
-        <img src="android-images/splash_screen.png" alt="splash screen" height="300">
+        <img src="android-images/splash_screen.png" alt="splash screen" width="150">
     </a>
 </p>
