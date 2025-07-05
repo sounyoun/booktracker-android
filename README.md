@@ -17,10 +17,10 @@
 
 
 #### 초기 설계 스케치
-아래 이미지는 개발 초기 단계에서 구상한 화면 설계 예시입니다.
+아래 이미지는 개발 초기 단계에서 구상한 화면 설계 예시입니다. <br>
 실제 구현과 비교해보면 초기 아이디어를 확인할 수 있습니다.
 
-<img src="android_images/initial_idea.png" alt="초기 설계 스케치" width="400">
+<img src="android-images/initial_idea.png" alt="초기 설계 스케치" width="400">
 
 
 ---
