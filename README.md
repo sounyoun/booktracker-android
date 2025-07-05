@@ -12,7 +12,7 @@
 - 책의 제목, 저자, 시작일, 종료일, 메모 등 상세 정보를 입력하고 수정하면서 독서 활동을 기록할 수 있다.
 
 
-<img src="images/function_list.png" alt="function list" width="600">
+<img src="android-images/function_list.png" alt="function list" width="600">
 
 
 ---
@@ -36,7 +36,7 @@
 - 목표 달성 여부 기록 확인
 
 
-  <img src="images/final.png" alt="main features" width="800">
+  <img src="android-images/final.png" alt="main features" width="800">
 
 
 ---
@@ -95,6 +95,6 @@
 
 <p>
     <a href="https://youtu.be/hJgjR95GOdQ">
-        <img src="splash_screen.png" alt="splash screen">
+        <img src="android-images/splash_screen.png" alt="splash screen">
     </a>
 </p>
