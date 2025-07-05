@@ -1,8 +1,12 @@
-## My Book Tracker - 2025-1 안드로이드 스튜디오 기말 프로젝트
+## 📚 My Book Tracker - 2025-1 안드로이드 스튜디오 기말 프로젝트
 
 > 이 앱은 기존 독서 기록 앱을 기반으로, <br>
 > 필요하지 않은 기능을 제외하고 개인의 필요에 맞게 재구성하였으며, <br>
-> 학습 범위 확장을 위해 새롭운 기능을 추가했습니다.
+> 학습 범위 확장을 위해 새로운 기능을 추가했습니다.
+
+> **booktracker-ds-team**과의 차이점
+>   1. 목표를 직접 설정
+>   2. 각 책의 현재 진도율 표시
 
 
 ---
@@ -12,9 +16,6 @@
 - 책의 제목, 저자, 시작일, 종료일, 메모 등 상세 정보를 입력하고 수정하면서 독서 활동을 기록할 수 있다.
 
 
-<img src="android-images/function_list.png" alt="function list" width="600">
-
-
 ---
 ### 개발 환경
 - **언어**: Kotlin
@@ -22,11 +23,6 @@
 - **Kotlin JVM Target**: 11
 - **Gradle 버전**: 8.11.1
 - **SDK 버전**: 35
-
-
-> **booktracker-ds-team**과의 차이점
->   1. 목표를 직접 설정
->   2. 각 책의 현재 진도율 표시
 
 
 ---
@@ -43,6 +39,8 @@
 ### 프로젝트 구조
 <details>
 <summary>📂 클릭해서 보기</summary>
+  
+```
 .
 ├── AndroidManifest.xml
 ├── java
@@ -86,15 +84,17 @@
     └── xml
         ├── backup_rules.xml
         └── data_extraction_rules.xml
+```
+
 </details>
 
 
 ---
-### 시연 영상
+### 🎥 시연 영상
 [youtube 링크](https://youtu.be/hJgjR95GOdQ)
 
 <p>
     <a href="https://youtu.be/hJgjR95GOdQ">
-        <img src="android-images/splash_screen.png" alt="splash screen">
+        <img src="android-images/splash_screen.png" alt="splash screen" width="300">
     </a>
 </p>
