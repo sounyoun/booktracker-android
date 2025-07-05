@@ -1,0 +1,101 @@
+<!-- 1. 바탕 FrameLayout에 에뮬 배경색 적용 -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="#313131"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- 2. 둥근 테두리 배경을 가진 앱 전체 틀 -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background_app_container">
+
+    <!-- 3. 앱 내용 전체 (기존 LinearLayout) -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- 상단 텍스트 -->
+        <TextView
+            android:text="Book Tracker"
+            android:textStyle="italic"
+            android:textSize="30sp"
+            android:textAlignment="center"
+            android:layout_margin="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <!-- 목표 진도율 -->
+        <LinearLayout
+            android:id="@+id/layoutGoalProgress"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone">
+
+            <ProgressBar
+                android:id="@+id/progressBarGoal"
+                style="?android:attr/progressBarStyleHorizontal"
+                android:layout_width="0dp"
+                android:layout_height="30dp"
+                android:layout_weight="1"
+                android:max="100"
+                android:progress="0"
+                android:indeterminate="false"
+                android:progressTint="#A7CAB6"
+                android:backgroundTint="#cccccc" />
+
+            <TextView
+                android:id="@+id/tvGoalStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="0 / 0"
+                android:layout_marginStart="8dp" />
+        </LinearLayout>
+
+        <!-- 책 목록 -->
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerView"
+            android:layout_marginTop="16dp"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+
+        <!-- 버튼 3개 -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_gravity="end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <Button
+                android:id="@+id/btnAddBook"
+                android:text="+ 책 추가"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"/>
+
+            <Button
+                android:id="@+id/btnSetGoal"
+                android:text="+ 목표"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/btnViewRecords"
+                android:text="기록"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

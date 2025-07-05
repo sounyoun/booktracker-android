@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme -->
+    <style name="Base.Theme.MyBookTracker" parent="Theme.Material3.DayNight.NoActionBar" />
+
+    <!-- 기본 테마는 Base 테마를 상속 -->
+    <style name="Theme.MyBookTracker" parent="Base.Theme.MyBookTracker">
+        <item name="buttonStyle">@style/CustomButton</item>
+        <item name="materialButtonStyle">@style/CustomButton</item> <!-- ✅ 추가 -->
+    </style>
+
+    <!-- NoActionBar 테마 (Splash용 등) -->
+    <style name="Theme.MyBookTracker.NoActionBar" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">#f8f8e0</item>
+    </style>
+</resources>

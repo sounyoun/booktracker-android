@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:padding="20dp"
+    android:background="#f8f8e0"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <!-- 제목 -->
+        <TextView
+            android:id="@+id/tvTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#434242"
+            android:layout_marginBottom="10dp" />
+
+        <!-- 저자 -->
+        <TextView
+            android:id="@+id/tvAuthor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#434242"
+            android:layout_marginBottom="8dp" />
+
+        <!-- 전체 페이지 -->
+        <TextView
+            android:id="@+id/tvTotalPages"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#434242"
+            android:layout_marginBottom="8dp" />
+
+        <!-- 현재 페이지 -->
+        <TextView
+            android:id="@+id/tvCurrentPage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#434242"
+            android:layout_marginBottom="8dp" />
+
+        <!-- 메모 -->
+        <TextView
+            android:id="@+id/tvMemo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#434242"
+            android:layout_marginBottom="8dp" />
+
+        <!-- 시작일 -->
+        <TextView
+            android:id="@+id/tvStartDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#434242"
+            android:layout_marginBottom="8dp" />
+
+        <!-- 종료일 -->
+        <TextView
+            android:id="@+id/tvEndDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#434242"
+            android:layout_marginBottom="16dp" />
+
+        <!-- 버튼들 -->
+        <LinearLayout
+            android:orientation="horizontal"
+            android:gravity="end"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnEdit"
+                android:text="수정"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <Button
+                android:id="@+id/btnDelete"
+                android:text="삭제"
+                android:layout_marginStart="8dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

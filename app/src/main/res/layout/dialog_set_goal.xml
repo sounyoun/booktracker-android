@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#f8f8e0"
+    android:padding="24dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="16dp">
+
+    <!-- 타이틀 -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="목표 권수 설정"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#434242"
+        android:layout_marginBottom="16dp" />
+
+    <!-- 목표 입력 필드 -->
+    <EditText
+        android:id="@+id/etGoalCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="읽을 책 권수"
+        android:inputType="number"
+        android:textColorHint="#888888"
+        android:textColor="#434242"
+        android:backgroundTint="#434242"
+        android:layout_marginBottom="24dp" />
+
+    <!-- 버튼 2개 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="end">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="취소"
+            android:layout_marginEnd="8dp"
+            android:textColor="#434242" />
+
+        <Button
+            android:id="@+id/btnConfirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="확인"
+            android:textColor="#434242" />
+
+    </LinearLayout>
+</LinearLayout>

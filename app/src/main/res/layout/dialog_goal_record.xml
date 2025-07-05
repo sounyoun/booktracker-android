@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#f8f8e0"
+    android:padding="20dp"
+    android:layout_margin="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <!-- 제목 -->
+    <TextView
+        android:text="목표 달성 기록"
+        android:textStyle="bold"
+        android:textSize="18sp"
+        android:textColor="#434242"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp" />
+
+    <!-- 기록 내용 -->
+    <TextView
+        android:id="@+id/tvRecords"
+        android:textSize="16sp"
+        android:textColor="#434242"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:layout_marginBottom="24dp" />
+
+    <!-- 닫기 버튼 -->
+    <TextView
+        android:id="@+id/btnClose"
+        android:text="닫기"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:textColor="#434242"
+        android:layout_gravity="end"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="8dp" />
+</LinearLayout>
