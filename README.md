@@ -5,19 +5,6 @@
 > 학습 범위 확장을 위해 새롭운 기능을 추가했습니다.
 
 
-> **booktracker-ds-team**과의 차이점
->   1. 목표를 직접 설정
->   2. 각 책의 현재 진도율 표시
-
-
----
-### 개발 환경
-- **언어**: Kotlin
-- **IDE**: Android Studio
-- **Kotlin JVM Target**: 11
-- **Gradle 버전**: 8.11.1
-- **SDK 버전**: 35
-
 ---
 ### 개요
 책을 관리하고 기록하는 앱
@@ -29,8 +16,33 @@
 
 
 ---
+### 개발 환경
+- **언어**: Kotlin
+- **IDE**: Android Studio
+- **Kotlin JVM Target**: 11
+- **Gradle 버전**: 8.11.1
+- **SDK 버전**: 35
+
+
+> **booktracker-ds-team**과의 차이점
+>   1. 목표를 직접 설정
+>   2. 각 책의 현재 진도율 표시
+
+
+---
+### 주요 기능
+- 책 등록과 현재 진도율 표시
+- 원하는 목표 설정 및 진도바 표시
+- 목표 달성 여부 기록 확인
+
+
+  <img src="images/final.png" alt="main features" width="800">
+
+
+---
 ### 프로젝트 구조
-```
+<details>
+<summary>📂 클릭해서 보기</summary>
 .
 ├── AndroidManifest.xml
 ├── java
@@ -64,24 +76,6 @@
     │   ├── dialog_set_goal.xml
     │   ├── fragment_add_book.xml
     │   └── item_book.xml
-    ├── mipmap-anydpi-v26
-    │   ├── ic_launcher.xml
-    │   └── ic_launcher_round.xml
-    ├── mipmap-hdpi
-    │   ├── ic_launcher.webp
-    │   └── ic_launcher_round.webp
-    ├── mipmap-mdpi
-    │   ├── ic_launcher.webp
-    │   └── ic_launcher_round.webp
-    ├── mipmap-xhdpi
-    │   ├── ic_launcher.webp
-    │   └── ic_launcher_round.webp
-    ├── mipmap-xxhdpi
-    │   ├── ic_launcher.webp
-    │   └── ic_launcher_round.webp
-    ├── mipmap-xxxhdpi
-    │   ├── ic_launcher.webp
-    │   └── ic_launcher_round.webp
     ├── values
     │   ├── colors.xml
     │   ├── strings.xml
@@ -92,17 +86,7 @@
     └── xml
         ├── backup_rules.xml
         └── data_extraction_rules.xml
-```
-
-
----
-### 주요 기능
-- 책 등록과 현재 진도율 표시
-- 원하는 목표 설정 및 진도바 표시
-- 목표 달성 여부 기록 확인
-
-
-  <img src="images/final.png" alt="main features" width="800">
+</details>
 
 
 ---
